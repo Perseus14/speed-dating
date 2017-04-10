@@ -1,0 +1,54 @@
+"Everything"
+
+"Average Male"
+[1] 0.6285714
+[1] "Average Female"
+[1] 0.4771242
+[1] "Summary of Male with Standard Deviation"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+ 0.6286  0.6286  0.6286  0.6286  0.6286  0.6286
+
+"Without race"
+
+800  57
+[1] "Average Male"
+[1] 0.6923077
+[1] "Average Female"
+[1] 0.4701987
+[1] "Summary of Male with Standard Deviation"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+ 0.6923  0.6923  0.6923  0.6923  0.6923  0.6923
+
+
+Naive Bayes
+
+"Without race"
+
+[1] "Average Male"
+[1] 0.6321471
+[1] "Average Female"
+[1] 0.6298197
+[1] "Summary of Male with Standard Deviation"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+ 0.6092  0.6215  0.6318  0.6321  0.6350  0.6645 
+[1] 0.01329426
+[1] "Summary of Female with Standard Deviation"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+ 0.6025  0.6237  0.6284  0.6298  0.6342  0.6628 
+[1] 0.01320299
+
+"Everything"
+
+[1] "Average Male"
+[1] 0.6371551
+[1] "Average Female"
+[1] 0.6328716
+[1] "Summary of Male with Standard Deviation"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+ 0.6086  0.6236  0.6358  0.6372  0.6484  0.6667 
+[1] 0.01562816
+[1] "Summary of Female with Standard Deviation"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+ 0.6036  0.6223  0.6343  0.6329  0.6452  0.6526 
+[1] 0.01421046
+

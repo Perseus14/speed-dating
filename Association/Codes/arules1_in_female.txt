@@ -1,0 +1,69 @@
+[1] "female_male.csv"
+[1] 35 60 19 30 30 50
+[1] 20  0 18  5 10  0
+[1] 20  0 19 15 20 30
+[1] 20 40 18 40 10 10
+[1]  0  0 14  5 10  0
+[1]  5  0 12  5 20 10
+Apriori
+
+Parameter specification:
+ confidence minval smax arem  aval originalSupport maxtime support minlen
+        0.8    0.1    1 none FALSE            TRUE       5    0.01      1
+ maxlen target   ext
+     10  rules FALSE
+
+Algorithmic control:
+ filter tree heap memopt load sort verbose
+    0.1 TRUE TRUE  FALSE TRUE    2    TRUE
+
+Absolute minimum support count: 40 
+
+set item appearances ...[1 item(s)] done [0.00s].
+set transactions ...[86 item(s), 4039 transaction(s)] done [0.00s].
+sorting and recoding items ... [80 item(s)] done [0.00s].
+creating transaction tree ... done [0.00s].
+checking subsets of size 1 2 3 4 5 6 done [6.66s].
+writing ... [884 rule(s)] done [0.29s].
+creating S4 object  ... done [0.06s].
+     lhs               rhs          support confidence     lift
+[1]  {fun3_1=H,                                                
+      f_theater=M,                                             
+      f_movies=M,                                              
+      samerace=0}   => {dec_o=1} 0.01039861  0.9333333 1.973682
+[2]  {fun3_1=H,                                                
+      f_sports=H,                                              
+      f_theater=M,                                             
+      f_movies=M,                                              
+      samerace=0}   => {dec_o=1} 0.01039861  0.9333333 1.973682
+[3]  {f_hiking=H,                                              
+      f_theater=M,                                             
+      f_movies=M}   => {dec_o=1} 0.01015103  0.9318182 1.970478
+[4]  {f_hiking=H,                                              
+      f_movies=M,                                              
+      f_concerts=M} => {dec_o=1} 0.01015103  0.9318182 1.970478
+[5]  {f_hiking=H,                                              
+      f_theater=M,                                             
+      f_movies=M,                                              
+      f_concerts=M} => {dec_o=1} 0.01015103  0.9318182 1.970478
+[6]  {fun3_1=H,                                                
+      f_theater=M,                                             
+      f_movies=M,                                              
+      f_concerts=M} => {dec_o=1} 0.01015103  0.9318182 1.970478
+[7]  {f_hiking=H,                                              
+      f_tv=M,                                                  
+      f_theater=M,                                             
+      f_movies=M}   => {dec_o=1} 0.01015103  0.9318182 1.970478
+[8]  {fun3_1=H,                                                
+      f_tv=M,                                                  
+      f_theater=M,                                             
+      f_movies=M}   => {dec_o=1} 0.01015103  0.9318182 1.970478
+[9]  {f_sports=H,                                              
+      f_reading=H,                                             
+      f_theater=M,                                             
+      f_movies=M}   => {dec_o=1} 0.01015103  0.9318182 1.970478
+[10] {f_sports=H,                                              
+      f_hiking=H,                                              
+      f_theater=M,                                             
+      f_movies=M}   => {dec_o=1} 0.01015103  0.9318182 1.970478
+[1] "cairo"

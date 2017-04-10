@@ -1,0 +1,80 @@
+[1] "male_female.csv"
+[1] 15 45 35 20 20 10
+[1] 20  5 10 20  5 25
+[1] 20 25 35 20 25 20
+[1] 15 20 10 20 25 25
+[1] 15  0 10 10 10  5
+[1] 15  5  0 10 15 15
+Apriori
+
+Parameter specification:
+ confidence minval smax arem  aval originalSupport maxtime support minlen
+       0.85    0.1    1 none FALSE            TRUE       5   0.005      1
+ maxlen target   ext
+     10  rules FALSE
+
+Algorithmic control:
+ filter tree heap memopt load sort verbose
+    0.1 TRUE TRUE  FALSE TRUE    2    TRUE
+
+Absolute minimum support count: 20 
+
+set item appearances ...[1 item(s)] done [0.00s].
+set transactions ...[87 item(s), 4039 transaction(s)] done [0.00s].
+sorting and recoding items ... [85 item(s)] done [0.00s].
+creating transaction tree ... done [0.00s].
+checking subsets of size 1 2 3 4 5 6 done [11.15s].
+writing ... [24 rule(s)] done [0.63s].
+creating S4 object  ... done [0.12s].
+     lhs               rhs           support confidence     lift
+[1]  {attr1_1.1=L,                                              
+      sinc1_1.1=M,                                              
+      intel1_1.1=M,                                             
+      fun1_1.1=L,                                               
+      amb1_1.1=M}   => {dec_o=1} 0.005942065  0.9600000 2.630556
+[2]  {m_reading=M,                                              
+      m_movies=H,                                               
+      m_yoga=M,                                                 
+      sinc1_1.1=M,                                              
+      amb1_1.1=H}   => {dec_o=1} 0.005446893  0.9166667 2.511816
+[3]  {sinc3_1=H,                                                
+      m_exercise=M,                                             
+      m_gaming=H,                                               
+      m_yoga=H,                                                 
+      amb1_1.1=M}   => {dec_o=1} 0.005199307  0.9130435 2.501888
+[4]  {m_tvsports=L,                                             
+      m_dining=H,                                               
+      m_tv=M,                                                   
+      m_movies=H,                                               
+      amb1_1.1=H}   => {dec_o=1} 0.005199307  0.9130435 2.501888
+[5]  {m_tvsports=H,                                             
+      m_clubbing=H,                                             
+      m_reading=M,                                              
+      sinc1_1.1=M,                                              
+      amb1_1.1=H}   => {dec_o=1} 0.005694479  0.8846154 2.423990
+[6]  {m_gaming=L,                                               
+      m_reading=M,                                              
+      m_movies=H,                                               
+      m_yoga=M,                                                 
+      amb1_1.1=H}   => {dec_o=1} 0.005446893  0.8800000 2.411343
+[7]  {m_reading=M,                                              
+      m_movies=H,                                               
+      m_yoga=M,                                                 
+      intel1_1.1=M,                                             
+      amb1_1.1=H}   => {dec_o=1} 0.005446893  0.8800000 2.411343
+[8]  {m_dining=H,                                               
+      m_gaming=M,                                               
+      attr1_1.1=L,                                              
+      intel1_1.1=M,                                             
+      fun1_1.1=L}   => {dec_o=1} 0.005446893  0.8800000 2.411343
+[9]  {m_tvsports=H,                                             
+      m_gaming=L,                                               
+      m_clubbing=H,                                             
+      m_yoga=M,                                                 
+      amb1_1.1=H}   => {dec_o=1} 0.005446893  0.8800000 2.411343
+[10] {m_tvsports=H,                                             
+      m_gaming=L,                                               
+      m_reading=M,                                              
+      m_yoga=M,                                                 
+      amb1_1.1=H}   => {dec_o=1} 0.005199307  0.8750000 2.397642
+[1] "cairo"

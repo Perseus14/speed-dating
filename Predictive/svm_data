@@ -1,0 +1,49 @@
+Call:
+svm(formula = as.factor(dec_o) ~ ., data = traindata_male, kernel = "radial", 
+    cost = svm_tune_male$best.parameters$cost, gamma = svm_tune_male$best.parameters$gamma)
+
+
+Parameters:
+   SVM-Type:  C-classification 
+ SVM-Kernel:  radial 
+       cost:  10 
+      gamma:  0.5 
+
+Number of Support Vectors:  3136
+
+ ( 1987 1149 )
+
+
+Number of Classes:  2 
+
+Levels: 
+ 0 1
+
+
+
+
+Parameter tuning of ‘svm’:
+
+- sampling method: 10-fold cross validation 
+
+- best parameters:
+ cost gamma
+   10   0.5
+
+- best performance: 0.2240377 
+
+[1] "Prediction Male"
+    true
+pred   0   1
+   0 500 267
+   1  24  34
+[1] "Average Male"
+[1] 0.6472727
+[1] "Prediction Female"
+    true
+pred   0   1
+   0 517 267
+   1  34  31
+[1] "Average Female"
+[1] 0.6454653
+

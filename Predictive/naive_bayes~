@@ -1,0 +1,13 @@
+[1] "Average Male"
+[1] 0.6391158
+[1] "Average Female"
+[1] 0.6298233
+[1] "Summary of Male with Standard Deviation"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+ 0.6138  0.6308  0.6377  0.6391  0.6487  0.6678 
+[1] 0.01455627
+[1] "Summary of Female with Standard Deviation"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+ 0.5983  0.6138  0.6291  0.6298  0.6425  0.6706 
+[1] 0.01858735
+

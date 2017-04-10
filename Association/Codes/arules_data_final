@@ -1,0 +1,95 @@
+Female_Male (Male making the decision)
+
+     lhs               rhs          support confidence     lift
+[1]  {fun3_1=3,                                                
+      f_theater=2,                                             
+      f_movies=2,                                              
+      samerace=0}   => {dec_o=1} 0.01039861  0.9333333 1.973682
+[2]  {f_hiking=3,                                              
+      f_theater=2,                                             
+      f_movies=2}   => {dec_o=1} 0.01015103  0.9318182 1.970478
+[3]  {f_hiking=3,                                              
+      f_movies=2,                                              
+      f_concerts=2} => {dec_o=1} 0.01015103  0.9318182 1.970478
+[4]  {fun3_1=3,                                                
+      f_theater=2,                                             
+      f_movies=2,                                              
+      f_concerts=2} => {dec_o=1} 0.01015103  0.9318182 1.970478
+[5]  {fun3_1=3,                                                
+      f_tv=2,                                                  
+      f_theater=2,                                             
+      f_movies=2}   => {dec_o=1} 0.01015103  0.9318182 1.970478
+
+     lhs               rhs          support confidence     lift
+[1]  {f_sports=3,                                              
+      f_tvsports=1,                                            
+      f_museums=2,                                             
+      f_yoga=1}     => {dec_o=0} 0.01039861  0.9545455 1.810901
+[2]  {f_sports=3,                                              
+      f_tvsports=1,                                            
+      f_art=2,                                                 
+      f_yoga=1}     => {dec_o=0} 0.01039861  0.9545455 1.810901
+[3]  {f_sports=3,                                              
+      f_tvsports=1,                                            
+      f_art=2,                                                 
+      f_concerts=3} => {dec_o=0} 0.01039861  0.9545455 1.810901
+[4]  {fun3_1=3,                                                
+      f_sports=3,                                              
+      f_tvsports=1,                                            
+      f_museums=2,                                             
+      f_concerts=3} => {dec_o=0} 0.01039861  0.9545455 1.810901
+[5]  {attr3_1=3,                                               
+      f_sports=3,                                              
+      f_tvsports=1,                                            
+      f_museums=2,                                             
+      f_concerts=3} => {dec_o=0} 0.01039861  0.9545455 1.810901
+
+
+Male_Female (Female making the decision)
+
+lhs               rhs          support confidence     lift
+[1]  {amb3_1=3,                                                
+      m_hiking=3,                                              
+      m_gaming=1,                                              
+      m_clubbing=3,                                            
+      m_movies=3}   => {dec_o=1} 0.01163654  0.7580645 2.077220
+[2]  {sinc3_1=3,                                               
+      m_sports=3,                                              
+      m_dining=3,                                              
+      m_hiking=3,                                              
+      m_tv=2}       => {dec_o=1} 0.01262689  0.7500000 2.055122
+[3]  {m_sports=3,                                              
+      m_dining=3,                                              
+      m_hiking=3,                                              
+      m_clubbing=3,                                            
+      m_tv=2}       => {dec_o=1} 0.01089379  0.7457627 2.043511
+[4]  {amb3_1=3,                                                
+      m_sports=3,                                              
+      m_hiking=3,                                              
+      m_movies=3,                                              
+      m_shopping=1} => {dec_o=1} 0.01015103  0.7454545 2.042667
+[5]  {m_sports=3,                                              
+      m_dining=3,                                              
+      m_hiking=3,                                              
+      m_gaming=3,                                              
+      m_tv=2}       => {dec_o=1} 0.01064620  0.7413793 2.031500
+
+lhs               rhs          support confidence     lift
+[1]  {m_tvsports=2,                                            
+      m_dining=2,                                              
+      m_tv=3}       => {dec_o=0} 0.01213172          1 1.574659
+[2]  {m_exercise=2,                                            
+      m_clubbing=2,                                            
+      m_yoga=3}     => {dec_o=0} 0.01039861          1 1.574659
+[3]  {m_clubbing=2,                                            
+      m_tv=3,                                                  
+      m_theater=3,                                             
+      m_yoga=3}     => {dec_o=0} 0.01039861          1 1.574659
+[4]  {m_clubbing=2,                                            
+      m_tv=3,                                                  
+      m_concerts=3,                                            
+      m_yoga=3}     => {dec_o=0} 0.01287447          1 1.574659
+[5]  {m_exercise=2,                                            
+      m_tv=3,                                                  
+      m_music=3,                                               
+      m_yoga=3}     => {dec_o=0} 0.01039861          1 1.574659

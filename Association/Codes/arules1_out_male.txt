@@ -1,0 +1,51 @@
+[1] "male_female.csv"
+[1] 15 45 35 20 20 10
+[1] 20  5 10 20  5 25
+[1] 20 25 35 20 25 20
+[1] 15 20 10 20 25 25
+[1] 15  0 10 10 10  5
+[1] 15  5  0 10 15 15
+Apriori
+
+Parameter specification:
+ confidence minval smax arem  aval originalSupport maxtime support minlen
+       0.85    0.1    1 none FALSE            TRUE       5   0.005      1
+ maxlen target   ext
+     10  rules FALSE
+
+Algorithmic control:
+ filter tree heap memopt load sort verbose
+    0.1 TRUE TRUE  FALSE TRUE    2    TRUE
+
+Absolute minimum support count: 20 
+
+set item appearances ...[1 item(s)] done [0.00s].
+set transactions ...[87 item(s), 4039 transaction(s)] done [0.00s].
+sorting and recoding items ... [85 item(s)] done [0.00s].
+creating transaction tree ... done [0.00s].
+checking subsets of size 1 2 3 4 5 6 done [11.17s].
+writing ... [130717 rule(s)] done [0.61s].
+creating S4 object  ... done [0.31s].
+     lhs                                 rhs       support     confidence
+[1]  {m_sports=L,m_museums=L}         => {dec_o=0} 0.005199307 1         
+[2]  {m_museums=L,m_yoga=H}           => {dec_o=0} 0.005199307 1         
+[3]  {m_museums=L,m_gaming=H}         => {dec_o=0} 0.005199307 1         
+[4]  {m_museums=L,m_shopping=H}       => {dec_o=0} 0.005199307 1         
+[5]  {m_museums=L,m_theater=H}        => {dec_o=0} 0.005199307 1         
+[6]  {m_museums=L,m_concerts=H}       => {dec_o=0} 0.005199307 1         
+[7]  {m_sports=L,m_art=L}             => {dec_o=0} 0.005199307 1         
+[8]  {m_sports=L,m_museums=L,m_art=L} => {dec_o=0} 0.005199307 1         
+[9]  {m_museums=L,m_art=L,m_yoga=H}   => {dec_o=0} 0.005199307 1         
+[10] {m_museums=L,m_art=L,m_gaming=H} => {dec_o=0} 0.005199307 1         
+     lift    
+[1]  1.574659
+[2]  1.574659
+[3]  1.574659
+[4]  1.574659
+[5]  1.574659
+[6]  1.574659
+[7]  1.574659
+[8]  1.574659
+[9]  1.574659
+[10] 1.574659
+[1] "cairo"

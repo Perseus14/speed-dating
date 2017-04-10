@@ -1,0 +1,235 @@
+[1] "female_male.csv"
+[1] 35 60 19 30 30 50
+[1] 20  0 18  5 10  0
+[1] 20  0 19 15 20 30
+[1] 20 40 18 40 10 10
+[1]  0  0 14  5 10  0
+[1]  5  0 12  5 20 10
+Apriori
+
+Parameter specification:
+ confidence minval smax arem  aval originalSupport maxtime support minlen
+        0.9    0.1    1 none FALSE            TRUE       5    0.01      1
+ maxlen target   ext
+     10  rules FALSE
+
+Algorithmic control:
+ filter tree heap memopt load sort verbose
+    0.1 TRUE TRUE  FALSE TRUE    2    TRUE
+
+Absolute minimum support count: 40 
+
+set item appearances ...[1 item(s)] done [0.00s].
+set transactions ...[86 item(s), 4039 transaction(s)] done [0.00s].
+sorting and recoding items ... [80 item(s)] done [0.00s].
+creating transaction tree ... done [0.00s].
+checking subsets of size 1 2 3 4 5 6 done [6.77s].
+writing ... [118 rule(s)] done [0.21s].
+creating S4 object  ... done [0.06s].
+     lhs               rhs          support confidence     lift
+[1]  {fun3_1=3,                                                
+      f_theater=2,                                             
+      f_movies=2,                                              
+      samerace=0}   => {dec_o=1} 0.01039861  0.9333333 1.973682
+[2]  {fun3_1=3,                                                
+      f_sports=3,                                              
+      f_theater=2,                                             
+      f_movies=2,                                              
+      samerace=0}   => {dec_o=1} 0.01039861  0.9333333 1.973682
+[3]  {f_hiking=3,                                              
+      f_theater=2,                                             
+      f_movies=2}   => {dec_o=1} 0.01015103  0.9318182 1.970478
+[4]  {f_hiking=3,                                              
+      f_movies=2,                                              
+      f_concerts=2} => {dec_o=1} 0.01015103  0.9318182 1.970478
+[5]  {f_hiking=3,                                              
+      f_theater=2,                                             
+      f_movies=2,                                              
+      f_concerts=2} => {dec_o=1} 0.01015103  0.9318182 1.970478
+[6]  {fun3_1=3,                                                
+      f_theater=2,                                             
+      f_movies=2,                                              
+      f_concerts=2} => {dec_o=1} 0.01015103  0.9318182 1.970478
+[7]  {f_hiking=3,                                              
+      f_tv=2,                                                  
+      f_theater=2,                                             
+      f_movies=2}   => {dec_o=1} 0.01015103  0.9318182 1.970478
+[8]  {fun3_1=3,                                                
+      f_tv=2,                                                  
+      f_theater=2,                                             
+      f_movies=2}   => {dec_o=1} 0.01015103  0.9318182 1.970478
+[9]  {f_sports=3,                                              
+      f_reading=3,                                             
+      f_theater=2,                                             
+      f_movies=2}   => {dec_o=1} 0.01015103  0.9318182 1.970478
+[10] {f_sports=3,                                              
+      f_hiking=3,                                              
+      f_theater=2,                                             
+      f_movies=2}   => {dec_o=1} 0.01015103  0.9318182 1.970478
+     lhs               rhs          support confidence     lift
+[1]  {fun3_1=3,                                                
+      f_theater=2,                                             
+      f_movies=2,                                              
+      samerace=0}   => {dec_o=1} 0.01039861  0.9333333 1.973682
+[2]  {f_hiking=3,                                              
+      f_theater=2,                                             
+      f_movies=2}   => {dec_o=1} 0.01015103  0.9318182 1.970478
+[3]  {f_hiking=3,                                              
+      f_movies=2,                                              
+      f_concerts=2} => {dec_o=1} 0.01015103  0.9318182 1.970478
+[4]  {fun3_1=3,                                                
+      f_theater=2,                                             
+      f_movies=2,                                              
+      f_concerts=2} => {dec_o=1} 0.01015103  0.9318182 1.970478
+[5]  {fun3_1=3,                                                
+      f_tv=2,                                                  
+      f_theater=2,                                             
+      f_movies=2}   => {dec_o=1} 0.01015103  0.9318182 1.970478
+[6]  {f_sports=3,                                              
+      f_reading=3,                                             
+      f_theater=2,                                             
+      f_movies=2}   => {dec_o=1} 0.01015103  0.9318182 1.970478
+[7]  {f_exercise=3,                                            
+      f_reading=3,                                             
+      f_theater=2,                                             
+      f_movies=2}   => {dec_o=1} 0.01015103  0.9318182 1.970478
+[8]  {fun3_1=3,                                                
+      f_reading=3,                                             
+      f_theater=2,                                             
+      f_movies=2}   => {dec_o=1} 0.01015103  0.9318182 1.970478
+[9]  {fun3_1=3,                                                
+      f_exercise=3,                                            
+      f_theater=2,                                             
+      f_movies=2}   => {dec_o=1} 0.01015103  0.9318182 1.970478
+[10] {f_sports=3,                                              
+      f_reading=3,                                             
+      f_movies=2,                                              
+      f_concerts=2} => {dec_o=1} 0.01015103  0.9318182 1.970478
+[1] "male_female.csv"
+[1] 15 45 35 20 20 10
+[1] 20  5 10 20  5 25
+[1] 20 25 35 20 25 20
+[1] 15 20 10 20 25 25
+[1] 15  0 10 10 10  5
+[1] 15  5  0 10 15 15
+Apriori
+
+Parameter specification:
+ confidence minval smax arem  aval originalSupport maxtime support minlen
+        0.7    0.1    1 none FALSE            TRUE       5    0.01      1
+ maxlen target   ext
+     10  rules FALSE
+
+Algorithmic control:
+ filter tree heap memopt load sort verbose
+    0.1 TRUE TRUE  FALSE TRUE    2    TRUE
+
+Absolute minimum support count: 40 
+
+set item appearances ...[1 item(s)] done [0.00s].
+set transactions ...[87 item(s), 4039 transaction(s)] done [0.00s].
+sorting and recoding items ... [84 item(s)] done [0.00s].
+creating transaction tree ... done [0.00s].
+checking subsets of size 1 2 3 4 5 6 done [9.10s].
+writing ... [41 rule(s)] done [0.29s].
+creating S4 object  ... done [0.08s].
+     lhs               rhs          support confidence     lift
+[1]  {amb3_1=3,                                                
+      m_hiking=3,                                              
+      m_gaming=1,                                              
+      m_clubbing=3,                                            
+      m_movies=3}   => {dec_o=1} 0.01163654  0.7580645 2.077220
+[2]  {sinc3_1=3,                                               
+      m_sports=3,                                              
+      m_dining=3,                                              
+      m_hiking=3,                                              
+      m_tv=2}       => {dec_o=1} 0.01262689  0.7500000 2.055122
+[3]  {m_sports=3,                                              
+      m_dining=3,                                              
+      m_hiking=3,                                              
+      m_clubbing=3,                                            
+      m_tv=2}       => {dec_o=1} 0.01089379  0.7457627 2.043511
+[4]  {amb3_1=3,                                                
+      m_sports=3,                                              
+      m_hiking=3,                                              
+      m_movies=3,                                              
+      m_shopping=1} => {dec_o=1} 0.01015103  0.7454545 2.042667
+[5]  {m_sports=3,                                              
+      m_dining=3,                                              
+      m_hiking=3,                                              
+      m_gaming=3,                                              
+      m_tv=2}       => {dec_o=1} 0.01064620  0.7413793 2.031500
+[6]  {intel3_1=3,                                              
+      m_dining=3,                                              
+      m_hiking=3,                                              
+      m_gaming=3,                                              
+      m_tv=2}       => {dec_o=1} 0.01064620  0.7413793 2.031500
+[7]  {sinc3_1=3,                                               
+      m_dining=3,                                              
+      m_hiking=3,                                              
+      m_gaming=3,                                              
+      m_tv=2}       => {dec_o=1} 0.01064620  0.7413793 2.031500
+[8]  {m_hiking=3,                                              
+      m_gaming=1,                                              
+      m_clubbing=3,                                            
+      m_movies=3,                                              
+      fun1_1.1=M}   => {dec_o=1} 0.01089379  0.7333333 2.009453
+[9]  {m_museums=3,                                             
+      attr1_1.1=L,                                             
+      fun1_1.1=L,                                              
+      amb1_1.1=M,                                              
+      shar1_1.1=H}  => {dec_o=1} 0.01015103  0.7321429 2.006191
+[10] {m_sports=3,                                              
+      m_tv=2,                                                  
+      m_shopping=3,                                            
+      m_yoga=3}     => {dec_o=1} 0.01039861  0.7241379 1.984256
+     lhs               rhs          support confidence     lift
+[1]  {amb3_1=3,                                                
+      m_hiking=3,                                              
+      m_gaming=1,                                              
+      m_clubbing=3,                                            
+      m_movies=3}   => {dec_o=1} 0.01163654  0.7580645 2.077220
+[2]  {sinc3_1=3,                                               
+      m_sports=3,                                              
+      m_dining=3,                                              
+      m_hiking=3,                                              
+      m_tv=2}       => {dec_o=1} 0.01262689  0.7500000 2.055122
+[3]  {m_sports=3,                                              
+      m_dining=3,                                              
+      m_hiking=3,                                              
+      m_clubbing=3,                                            
+      m_tv=2}       => {dec_o=1} 0.01089379  0.7457627 2.043511
+[4]  {amb3_1=3,                                                
+      m_sports=3,                                              
+      m_hiking=3,                                              
+      m_movies=3,                                              
+      m_shopping=1} => {dec_o=1} 0.01015103  0.7454545 2.042667
+[5]  {m_sports=3,                                              
+      m_dining=3,                                              
+      m_hiking=3,                                              
+      m_gaming=3,                                              
+      m_tv=2}       => {dec_o=1} 0.01064620  0.7413793 2.031500
+[6]  {intel3_1=3,                                              
+      m_dining=3,                                              
+      m_hiking=3,                                              
+      m_gaming=3,                                              
+      m_tv=2}       => {dec_o=1} 0.01064620  0.7413793 2.031500
+[7]  {sinc3_1=3,                                               
+      m_dining=3,                                              
+      m_hiking=3,                                              
+      m_gaming=3,                                              
+      m_tv=2}       => {dec_o=1} 0.01064620  0.7413793 2.031500
+[8]  {m_hiking=3,                                              
+      m_gaming=1,                                              
+      m_clubbing=3,                                            
+      m_movies=3,                                              
+      fun1_1.1=M}   => {dec_o=1} 0.01089379  0.7333333 2.009453
+[9]  {m_museums=3,                                             
+      attr1_1.1=L,                                             
+      fun1_1.1=L,                                              
+      amb1_1.1=M,                                              
+      shar1_1.1=H}  => {dec_o=1} 0.01015103  0.7321429 2.006191
+[10] {m_sports=3,                                              
+      m_tv=2,                                                  
+      m_shopping=3,                                            
+      m_yoga=3}     => {dec_o=1} 0.01039861  0.7241379 1.984256
